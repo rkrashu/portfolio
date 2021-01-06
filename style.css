@@ -1,0 +1,154 @@
+body{
+    font-family: 'Merriweather', serif;
+    margin: 50px;
+}
+h1 {
+font-size: 80px;
+margin: 0%;
+
+}
+h2 {
+    font-size: 50px;
+}
+h3{font-size: 30px;
+margin: 2%;}
+p { margin:2%;
+    font-size: 25px;
+    color: rgb(49, 43, 43);
+}
+ul {
+    list-style-type: none;
+    text-align: right;
+}
+li{
+    display: inline;
+}
+li a {
+    color: black;
+    font-size: 35px;
+    margin: 10px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.banner-color {
+    color: orangered;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.image{
+    width: 85%;
+}
+.link-button{
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, rgb(6, 9, 165),tomato);
+}
+.link-button1{
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, rgba(236, 33, 6, 0.76),rgb(29, 7, 3));
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.banner-area{width: 100%;
+    height: 800px;
+    margin-bottom: 20px;
+    margin-top: 0%;
+}
+.about-area{
+    height:800px;
+    margin-bottom: 20px;
+    margin-top: 5%;
+}
+.working-area{
+    height: 800px;
+    background-color: rgb(233, 249, 250);
+    margin-bottom: 150px;
+}
+.working-headline{
+    margin-top: 100px;
+    text-align: center;
+}
+.work-image:after {
+    content: "";
+    clear: both;
+    display: table;
+ 
+}
+.image2{width: 100%;
+}
+
+.working-image {
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+  }
+.row::after {
+    clear: both;
+    display: table;
+  }
+.working-image{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    background-color: white;
+    height: 80%;
+}
+.margin{
+    margin-left: 8%;
+}
+.inquiry    {
+    margin:5%;
+    position: relative;
+
+}
+.work {
+    position: absolute;
+    top: 17px;
+    left: 100px;
+}
+.inquiry-box{
+    width: 70%;
+    margin: auto;
+    padding: 80px 60px;
+    border-radius: 30px;
+    overflow: hidden;
+    background: url('shapes/Group_33094_1.png') no-repeat scroll center center /cover;
+}
+
+.inquiry-box h2{
+    font-size: 64px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    color:white;
+}
+
+.inquiry-btn {
+    text-align: right;
+    margin-top: 27px;
+}
+.btn {
+    background-image: linear-gradient(180deg, #F46060, #FF8063);
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
