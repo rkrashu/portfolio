@@ -110,8 +110,18 @@ a{
     background-color: white;
     height: 80%;
 }
-.margin{
+.margin11{
     margin-left: 8%;
+    color:tomato;
+}
+.margin22{
+    margin-left: 8%;
+}
+.margin2{
+     color:black;
+}
+.margin1{
+    color:rgba(202, 17, 147, 0.952);
 }
 .inquiry    {
     margin:5%;
@@ -155,3 +165,6 @@ a{
 }
 #hello{background-color: rgb(236, 245, 242);
 margin-top: 5%;}
+.tuntuni{
+    color:red;
+}
