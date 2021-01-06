@@ -3,7 +3,7 @@ body{
     margin: 50px;
 }
 h1 {
-font-size: 80px;
+font-size: 70px;
 margin: 0%;
 
 }
@@ -13,6 +13,7 @@ h2 {
 h3{font-size: 30px;
 margin: 2%;}
 p { margin:2%;
+    margin-bottom: 5%;
     font-size: 25px;
     color: rgb(49, 43, 43);
 }
@@ -152,3 +153,5 @@ a{
     border-radius: 4px;
     letter-spacing: 1px;
 }
+#hello{background-color: rgb(236, 245, 242);
+margin-top: 5%;}
